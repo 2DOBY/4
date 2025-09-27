@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>football</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/adaptive.css" />
+    <link rel="stylesheet" href="scripts/script.js" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <img class="header__image" src="images/photo_spartak.jpg" />
+      <a class="header__path-in-main" href="#0">информация</a>
+      <a class="header__path-in-sell" href="#2">цены</a>
+      <a class="header__path-in-mesto" href="#3">расположение</a>
+      <a class="header__path-in-footer" href="#4">связаться</a>
+      <a class="header__path-in-footer" href="photo.html">фото</a>
+      <a class="header__link-first" href="https://t.me/@Yuliya_Dzyuba87">
+        <img class="header__link-image" src="images/telegram.png" />
+      </a>
+
+      <a
+        class="header__link"
+        href="https://wa.me/79136829170?text=Здравствуйте!"
+        target="_blank"
+      >
+        <img class="header__link-image" src="images/whatsapp.png" />
+      </a>
+    </header>
+    <div class="header-mobile">
+      <img src="images/burger-bar.png" class="menu-image" />
+      <img class="dropdown-photo" src="images/photo_spartak.jpg" />
+      <!-- Бургер-чекбокс -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+      <!-- Метка (бургер иконка) -->
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Меню -->
+      <nav class="sidebar">
+        <ul>
+          <li for="menu-toggle">
+            <a class="menu-text" href="#0">информация</a>
+          </li>
+          <li for="menu-toggle"><a class="menu-text" href="#2">цены</a></li>
+          <li for="menu-toggle">
+            <a class="menu-text" href="#3">расположение</a>
+          </li>
+          <li for="menu-toggle">
+            <a class="menu-text" href="#4">связаться</a>
+          </li>
+          <li for="menu-toggle">
+            <a class="menu-text" href="photo.html">фото</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="presentation">
+      <img class="presentation__image" src="images/photo_sparta.png" />
+      <p class="presentation__text">ФУТБОЛЬНАЯ ШКОЛА</p>
+      <p class="presentation__subtext">
+        ДЛЯ ДЕТЕЙ РАЗНОГО УРОВНЯ ПОДГОТОВКИ ОТ 4 ДО 14 ЛЕТ
+      </p>
+    </div>
+    <main class="main" id="0">
+      <div class="main__blok">
+        <h2 class="main__name">ФУТБОЛЬНАЯ ШКОЛА СПАРТАК СЕВЕРО-ЗАПАД</h2>
+        <p class="main__text">
+          “Спартак Северо-Запад” — профессионалы, любящие своё дело! Мы верим в
+          каждого ребёнка, вне зависимости от его текущего уровня подготовки.
+          Наши опытные тренеры найдут подход к любому, помогут раскрыть сильные
+          стороны, развить уверенность в себе и зажечь искру искреннего интереса
+          к футболу.
+        </p>
+        <p class="main__subtext">
+          Мы создаём атмосферу, где каждый чувствует себя частью команды, учится
+          не только побеждать, но и достойно справляться с любыми трудностями.
+          <span class="main__span"
+            ><a class="main__path" href="#4">Мы ждем вас!</a></span
+          >
+        </p>
+      </div>
+    </main>
+    <div class="plus" id="1">
+      <div class="plus__blok">
+        <img class="plus__image" src="images/location-pin.png" />
+        <h3 class="plus__name">ФИЛЛИАЛЫ В МИТИНО, СТРОГИНО И КУНЦЕВО</h3>
+        <p class="plus__text">ХОДИТЕ КУДА ВАМ БУДЕТ УДОБНО</p>
+      </div>
+      <div class="plus__blok">
+        <img class="plus__image" src="images/medal.png" />
+        <h3 class="plus__name">УЧАСТИЕ В ТУРНИРАХ</h3>
+        <p class="plus__text">ВЫХОДИ НА ПОЛЕ И ЗАБИРАЙ ПОБЕДЫ</p>
+      </div>
+      <div class="plus__blok">
+        <img class="plus__image" src="images/soccer-ball.png" />
+        <h3 class="plus__name">ТРЕНРОВКИ С КОМАНДОЙ</h3>
+        <p class="plus__text">
+          ТРЕНИРОВКИ ДЛЯ РАЗНЫХ ГРУПП ВОЗРАСТОВ, 2-3 РАЗА В НЕДЕЛЮ
+        </p>
+      </div>
+      <div class="plus__blok">
+        <img class="plus__image" src="images/training.png" />
+        <h3 class="plus__name">ИНДИВИДУАЛЬНЫЕ ТРЕНИРОВКИ</h3>
+        <p class="plus__text">
+          ПЕРСОНАЛЬНЫЕ ТРЕНИРОВКИ - ЭТО ИНДИВИДУАЛЬНЫЙ ПОДХОД И РАБОТА НА
+          РЕЗУЛЬТАТ
+        </p>
+      </div>
+    </div>
+    <div class="coach">
+      <img
+        class="coach__image"
+        id="img-for-coach"
+        src="images/photo_2025-06-07_21-33-22.jpg"
+      />
+
+      <p class="coach__subname"></p>
+      <h3 class="coach__subname">ГЛАВНЫЙ ТРЕНЕР</h3>
+      <h2 class="coach__name">Дзюба Илья Петрович</h2>
+      <p class="coach__text">
+        Игровая карьера: СДЮШОР «Динамо» г. Омск ФК«Иртыш» г. Омск ФК«Спартак»
+        г. Омск ФК ЦОП «Авангард» г. Омск
+      </p>
+      <p class="coach__text">
+        Высшее спортивное образование: Сибирский государственный университет
+        физической культуры и спорта, кафедра «Футбола и хоккея» бакалавр,
+        магистр физической культуры по специальности «Физическая культура».
+        Омский государственный технический университет, аспирантура.
+      </p>
+      <p class="coach__text">
+        Тренерская карьера: ФШ «Юниор» 2016-2019гг (мальчики 2011-2012) СШОР
+        «Динамо» 2016-2022гг ( юноши 2007, 2003, 2004, 2010-13) ФГБОУ ВО «ОмГАУ»
+        2019-2022гг тренер сборной ФСК «Авангард» 2017-2022гг (мальчики
+        2014-2016) ФГБОУ ВО «СибГУФК»2021-2022гг тренер сборной
+        ФШ«Спартак-Юниор» 2023-2024 Руководитель ФШ«Спартак Северо-Запад»
+        2024-н.в.
+      </p>
+    </div>
+    <div class="sell" id="2">
+      <h2 class="sell__name">СТОИМОСТЬ ЗАНЯТИЙ</h2>
+      <h4 class="sell__subname">ПЕРВАЯ ТРЕНИРОВКА БЕСПЛАТНО</h4>
+      <div class="sell__big-blok">
+        <div class="sell__blok">
+          <h4 class="sell__block-age">4 - 5 ЛЕТ</h4>
+          <h3 class="sell__block-number">2 РАЗА В НЕДЕЛЮ</h3>
+          <h2 class="sell__block-sell">7000₽</h2>
+          <p class="sell__block-text">8 ТРЕНИРОВОК В МЕСЯЦ</p>
+          <img class="sell__image" src="images/1.png" />
+        </div>
+        <div class="sell__blok">
+          <h4 class="sell__block-age">5 - 14 ЛЕТ</h4>
+          <h3 class="sell__block-number">РАЗОВАЯ ТРЕНИРОВКА</h3>
+          <h2 class="sell__block-sell">1000₽</h2>
+          <p class="sell__block-text">12 ТРЕНИРОВОК В МЕСЯЦ</p>
+          <img class="sell__image" src="images/2.png" />
+        </div>
+        <div class="sell__blok">
+          <h4 class="sell__block-age">5 - 14 ЛЕТ</h4>
+          <h3 class="sell__block-number">2 РАЗА В НЕДЕЛЮ</h3>
+          <h2 class="sell__block-sell">6000₽</h2>
+          <p class="sell__block-text">8 ТРЕНИРОВОК В МЕСЯЦ</p>
+          <img class="sell__image" src="images/3.png" />
+        </div>
+        <div class="sell__blok">
+          <h4 class="sell__block-age">5 - 14 ЛЕТ</h4>
+          <h3 class="sell__block-number">3 РАЗА В НЕДЕЛЮ</h3>
+          <h2 class="sell__block-sell">9000₽</h2>
+          <h3 class="sell__block-text">12 ТРЕНИРОВОК В МЕСЯЦ</h3>
+          <img class="sell__image" src="images/4.png" />
+        </div>
+      </div>
+    </div>
+    <div class="mesto" id="3">
+      <iframe
+        id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71758.63190605554!2d37.287962436676025!3d55.802661885855166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5471b6f0f4481%3A0x4d2c868350949c1b!2z0J3QvtCy0LDRjyDQl9Cy0LXQt9C00LA!5e0!3m2!1sru!2sru!4v1749333158301!5m2!1sru!2sru"
+        width="600"
+        height="400"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="mesto__sub-block">
+        <h2 class="mesto__name">ИЩИ НАС ЗДЕСЬ!</h2>
+        <p class="mesto__text">
+          Отделение "Мякинино": Москва квартал 100 д.1 к2 ЖК Мякинино Парк
+        </p>
+        <p class="mesto__text">
+          Отделение "Митино" Москва ул. Барышиха 33а СК «Новая Звезда»
+        </p>
+        <p class="mesto__text">
+          Отделение "Строгино" ул. Твардовского 16к3 площадка напротив МЧС
+        </p>
+      </div>
+    </div>
+    <footer class="header" id="4">
+      <img class="header__image" id="img" src="images/photo_spartak.jpg" />
+      <a class="header__link-first" href="">
+        <img class="header__link-image" src="images/telegram.png" />
+      </a>
+      <a class="header__link" href="">
+        <img class="header__link-image" src="images/whatsapp.png" />
+      </a>
+      <a class="footer__span">
+        +7 908 318 55-11<span>
+          <p class="footer__subspan">+7 951 420 99-36</p>
+        </span>
+      </a>
+    </footer>
+    <script>
+      document.querySelectorAll(".sidebar a").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.getElementById("menu-toggle").checked = false;
+        });
+      });
+    </script>
+  </body>
+</html>
